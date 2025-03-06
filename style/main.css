@@ -3,6 +3,7 @@
 @tailwind utilities;
 @layer components {
 
+  
   .title-lg {   @apply font-serif text-2xl }
   .title-md {  @apply font-serif text-lg   }
   .title-sm {  @apply font-serif text-base }

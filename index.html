@@ -8,11 +8,36 @@ seo:
  twitter_description:
  type: website
  hide-from-google: false
-banner_image: /images/photo-1.jpg
+banner_image: /images/rob-rea-uk-breathwork-holistic-wellness-retreats-34.jpg
 ---
 
 <!-- Example banner section -->
-<section class="bg-cover bg-center svh" style="background-image: url('{{page.banner_image}}');">
+<section class="bg-cover bg-center svh relative" style="background-image: url('{{page.banner_image}}');">
+  <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+  <div class="relative flex flex-col justify-end items-start h-full px-6 pb-20">
+
+    <!-- Logo (Top Left) -->
+    <div class="absolute top-6 left-6">
+      <a href="/"><img src="{{site.data.site-settings.brand.primary_logo_path}}" alt="" class="object-center object-contain lg:mx-auto h-12"></a>
+    </div>
+
+     <!-- Inster hamburger menu circle here -->
+
+
+    <!-- eyebrow heading -->
+    <p class="text-light text-2xl font-serif text-center pl-64 mb-8">{  breathe easy  }</p>
+
+    <div class="max-w-[85%]">
+      <!-- Main Heading -->
+      <h1 class="text-light text-7xl leading-[1.2] block md:inline-block">
+        <span class="pl-64 mb-6">Embark on a Holistic </span>journey with Rob Rea.
+        <span class="block md:inline-block text-sm max-w-sm">
+          A Human Potential Coach and Breathwork Practitioner, internationally trained with extensive experience across EMEA and APAC.
+        </span>
+      </h1>
+
+
+  </div>
 </section>
 
 
