@@ -35,9 +35,19 @@
   } */
 
   @font-face {
-    font-family: 'FontName';
-    src: url('/fonts/FontName.woff2') format("woff2"), /* WOFF2 tried first */
-         url('/fonts/FontName.woff') format("woff"), /* WOFF tried second */
+    font-family: 'Romie';
+    src: url('/fonts/Romie-Regular.woff2') format("woff2"), /* WOFF2 tried first */
+         url('/fonts/Romie-Regular.woff') format("woff"); /* WOFF tried second */
+         font-weight: normal;
+         font-style: normal;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+  }
+
+  @font-face {
+    font-family: 'Romie';
+    src: url('/fonts/Romie-Medium.woff2') format("woff2"), /* WOFF2 tried first */
+         url('/fonts/Romie-Medium.woff') format("woff"), /* WOFF tried second */
          url('/fonts/FontName.ttf') format("truetype"), /* TTF */ 
          url('/fonts/FontName.eot') format("embedded-opentype"); /* EOT for Internet Explorer */ 
          font-weight: normal;

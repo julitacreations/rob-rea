@@ -22,11 +22,11 @@ instagram_feed:
     - image: /images/photo-1.jpg
     - image: /images/photo-2.jpg
 brand:
-  primary_color: '#B1BAB5'
-  secondary_color: '#5F9595'
-  light_color: '#FFFFFF'
-  dark_color: 
-  bright_color:
+  primary_color: '#E4E6DD'
+  secondary_color: '#233918'
+  light_color: '#F6F6F6'
+  dark_color: '#222020'
+  bright_color: '#EAEFCD'
   primary_logo_path: /images/brand_logo.png
   secondary_logo_path:
   submark_logo_path:
