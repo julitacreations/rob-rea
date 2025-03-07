@@ -1,7 +1,21 @@
    <!-- Footer -->
-   <footer class="grid lg:grid-cols-2 grid-cols-1 bg-dark py-6">
+   <footer class="grid lg:grid-cols-2 grid-cols-1 bg-secondary text-light py-6">
 
+
+      <!-- E-mail sign up and LOGO -->
     <div class="flex flex-col md:pl-12">
+
+      <div>
+        <p class="text-lg mb-4">
+          Pop your email below and I’ll send you a gentle breath & meditation recording to bring you into the present moment and induce relaxation.
+        </p>
+        <div class="flex items-center gap-2">
+          <input type="email" placeholder="Email" class="border border-white bg-transparent px-4 py-2 text-white w-2/3">
+          <button class="bg-green-100 text-green-900 px-6 py-2">Submit</button>
+        </div>
+      </div>
+  
+
         <a href="/" class="md:m-0 mx-auto">
           <img src="{{site.data.site-settings.brand.primary_logo_path}}" alt="" class="inline-block object-center object-contain mx-auto mb-4 lg:h-28 h-16">
         </a>
@@ -26,6 +40,13 @@
               <a href="{{item.nav_link}}" class="mb-6">{{item.nav_title}}</a>
             {% endfor %}
           </nav>
+
+         <!-- Added paragraph below the nav links -->
+          <p class="text-sm mt-6 col-span-full">
+            The Rob Rea Method is a unique blend of Functional and Transformative Breathwork to bring you clarity, purpose, and alignment.
+          </p>
+
+        
     </div>
 
       <!-- mobile nav -->

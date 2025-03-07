@@ -76,8 +76,8 @@
 
   /* buttons and navs */
 
-  .button    { @apply inline-block px-8 py-2 border transition;  }
-  .button:hover { @apply bg-bright }
+  .button    { @apply inline-block px-12 py-3 transition;  }
+  .button:hover { @apply bg-bright text-dark }
 
   .nav-items { @apply flex justify-around items-center uppercase font-normal; }
   .nav-items-col { @apply flex flex-col uppercase }
